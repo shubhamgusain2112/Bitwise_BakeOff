@@ -1,3 +1,10 @@
+"""
+This file parses the full RecipeNLG dataset CSV and separates all the recipies that are 
+cookies, cakes, muffins, or brownies. Then those recipies are structured into a JSON file
+called knowledgebase.json, which contains the recipies, including the ingredients and ingredient types. 
+From the full dataset, around 300,000 recipies are extracted (over 600MB), so I cannot upload that to GitHub :(
+"""
+
 import json
 import ast
 import pandas as pd
