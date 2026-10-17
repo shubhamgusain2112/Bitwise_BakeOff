@@ -1,150 +1,150 @@
 [
     {
         "generated_id": "gen_recipe_1",
-        "fitness_score": 89.54,
+        "fitness_score": 86.45,
         "ingredients": [
             {
-                "name": "wholewheat flour",
-                "amount": 13.0,
-                "unit": "cups",
+                "name": "flax seed meal",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "red crystal sugar",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "castor sugar",
+                "amount": 0.5,
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butter - no substitute",
-                "amount": 2.0,
-                "unit": "cups",
+                "name": "neutral oil",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "2 eggs, room temperature",
-                "amount": 2.0,
+                "name": "range eggs",
+                "amount": 6.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active dry yeast",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "toasted coconut for around the cake",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "master",
-                "amount": 4.0,
+                "name": "nahum",
+                "amount": 2.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "2 tablespoons pepitas (optional but highly recommended)",
-                "amount": 2.0,
-                "unit": "tbsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
+                "name": "cinnamon sticks",
+                "amount": 4.0,
+                "unit": "cups",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             },
             {
-                "name": "fleur de sel",
+                "name": "celtic sea salt",
+                "amount": 0.25,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "lemon wedge",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "lite salt",
+                "name": "chicken broth",
                 "amount": 0.5,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_2",
-        "fitness_score": 89.16,
+        "fitness_score": 84.91,
         "ingredients": [
             {
-                "name": "press batter into pans and sprinkle top with cornmeal.",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "unbleached white flour",
+                "amount": 2.0,
+                "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "splenda sugar",
-                "amount": 1.25,
-                "unit": "cups",
+                "name": "unsulfured molasses",
+                "amount": 2.0,
+                "unit": "tbsp",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "buttery round crackers",
-                "amount": 0.5,
-                "unit": "tsp",
+                "name": "cold butter",
+                "amount": 4.0,
+                "unit": "tbsp",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "sliced fruit of choice to match yogurt flavor",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "egg noodles",
+                "amount": 6.0,
+                "unit": "cups",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "strawberry popping",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "65 vanilla wafers, divided",
-                "amount": 65.0,
+                "name": "vanilla custard",
+                "amount": 1.0,
                 "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "nilla vanilla wafers",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "stewing beef",
-                "amount": 1.0,
-                "unit": "lbs",
+                "name": "butternut",
+                "amount": 2.0,
+                "unit": "tsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "crepes",
+                "name": "vegetable or",
                 "amount": 0.5,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "limoncello",
+                "amount": 0.25,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "chestnuts",
+                "amount": 14.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
@@ -153,268 +153,420 @@
     },
     {
         "generated_id": "gen_recipe_3",
-        "fitness_score": 88.42,
+        "fitness_score": 84.06,
         "ingredients": [
             {
-                "name": "king midas flour",
-                "amount": 5.5,
+                "name": "tapioca flour",
+                "amount": 12.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "red crystal sugar",
+                "name": "colored sugar",
                 "amount": 1.0,
-                "unit": "units",
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "neutral flavored cooking oil",
+                "name": "chunky peanut butter",
+                "amount": 0.3333333333333333,
+                "unit": "cups",
+                "role": "fat",
+                "class": "dairy_or_oil"
+            },
+            {
+                "name": "liquid egg substitute",
+                "amount": 34.0,
+                "unit": "cups",
+                "role": "binder",
+                "class": "protein"
+            },
+            {
+                "name": "double acting baking powder",
+                "amount": 1.5,
+                "unit": "tsp",
+                "role": "rising_agent",
+                "class": "leavening"
+            },
+            {
+                "name": "lemonade",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "orange sections",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "cinnamon stick",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "yellow jiffy cake mix",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "clear vanilla",
+                "amount": 8.0,
+                "unit": "grams",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_4",
+        "fitness_score": 83.98,
+        "ingredients": [
+            {
+                "name": "yellow corn meal",
+                "amount": 1.0,
+                "unit": "cups",
+                "role": "structural",
+                "class": "dry"
+            },
+            {
+                "name": "sorghum molasses",
+                "amount": 0.5,
+                "unit": "cups",
+                "role": "sweetener",
+                "class": "sweet"
+            },
+            {
+                "name": "neutral oil",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "fat",
+                "class": "dairy_or_oil"
+            },
+            {
+                "name": "range eggs",
+                "amount": 6.0,
+                "unit": "units",
+                "role": "binder",
+                "class": "protein"
+            },
+            {
+                "name": "active dry yeast",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "rising_agent",
+                "class": "leavening"
+            },
+            {
+                "name": "nahum",
+                "amount": 2.0,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "imitation vanilla",
+                "amount": 1.0,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "matcha green tea powder",
+                "amount": 2.0,
+                "unit": "tsp",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "apricot halves",
+                "amount": 30.0,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "clear vanilla",
+                "amount": 8.0,
+                "unit": "grams",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_5",
+        "fitness_score": 83.94,
+        "ingredients": [
+            {
+                "name": "flax seed meal",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "role": "structural",
+                "class": "dry"
+            },
+            {
+                "name": "green colored sugar",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "role": "sweetener",
+                "class": "sweet"
+            },
+            {
+                "name": "smooth peanut butter",
+                "amount": 0.5,
+                "unit": "cups",
+                "role": "fat",
+                "class": "dairy_or_oil"
+            },
+            {
+                "name": "range eggs",
+                "amount": 6.0,
+                "unit": "units",
+                "role": "binder",
+                "class": "protein"
+            },
+            {
+                "name": "double acting baking powder",
+                "amount": 1.5,
+                "unit": "tsp",
+                "role": "rising_agent",
+                "class": "leavening"
+            },
+            {
+                "name": "lemon wedge",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "vanilla custard",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "cinnamon sticks",
+                "amount": 4.0,
+                "unit": "cups",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "whole kernel corn",
+                "amount": 1.0,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "gumdrop",
+                "amount": 0.75,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_6",
+        "fitness_score": 83.77,
+        "ingredients": [
+            {
+                "name": "potato flour",
+                "amount": 0.6666666666666666,
+                "unit": "cups",
+                "role": "structural",
+                "class": "dry"
+            },
+            {
+                "name": "unsulfured molasses",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "role": "sweetener",
+                "class": "sweet"
+            },
+            {
+                "name": "butter flavor",
                 "amount": 0.75,
                 "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "pasteurized egg",
-                "amount": 2.0,
-                "unit": "tbsp",
+                "name": "range eggs",
+                "amount": 6.0,
+                "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "cake yeast",
+                "amount": 1.0,
+                "unit": "cups",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "chocolate hazelnut",
+                "name": "imitation vanilla",
                 "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "2 tablespoons pepitas (optional but highly recommended)",
-                "amount": 2.0,
-                "unit": "tbsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "green cabbage",
-                "amount": 1.0,
-                "unit": "tbsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "kosher salt as needed",
-                "amount": 1.0,
-                "unit": "units",
+                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "catsup",
-                "amount": 0.5,
+                "name": "celtic sea salt",
+                "amount": 0.25,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "pancakes",
+                "amount": 12.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "limoncello",
+                "amount": 0.25,
                 "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "jalapeno",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             }
         ]
     },
     {
-        "generated_id": "gen_recipe_4",
-        "fitness_score": 88.36,
+        "generated_id": "gen_recipe_7",
+        "fitness_score": 83.72,
         "ingredients": [
             {
-                "name": "fluffed regular flour",
-                "amount": 2.0,
-                "unit": "cups",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "1 dash honey",
-                "amount": 1.0,
-                "unit": "dash",
-                "role": "sweetener",
-                "class": "sweet"
-            },
-            {
-                "name": "butter - no substitute",
-                "amount": 2.0,
-                "unit": "cups",
-                "role": "fat",
-                "class": "dairy_or_oil"
-            },
-            {
-                "name": "2 eggs, room temperature",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "binder",
-                "class": "protein"
-            },
-            {
-                "name": "1/2 teaspoons baking soda",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "rising_agent",
-                "class": "leavening"
-            },
-            {
-                "name": "oat",
-                "amount": 1.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "fleur de sel",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "lite salt",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "2 tablespoons pepitas (optional but highly recommended)",
-                "amount": 2.0,
-                "unit": "tbsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "catsup",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            }
-        ]
-    },
-    {
-        "generated_id": "gen_recipe_5",
-        "fitness_score": 88.02,
-        "ingredients": [
-            {
-                "name": "wholemeal self-rising",
+                "name": "rye flour",
                 "amount": 1.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "equal or sugar",
+                "name": "sanding sugar",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butter or non-stick spray, for your griddle",
+                "name": "yellow butter",
                 "amount": 1.0,
-                "unit": "units",
-                "role": "fat",
-                "class": "dairy_or_oil"
-            },
-            {
-                "name": "1 egg, slightly beaten",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "binder",
-                "class": "protein"
-            },
-            {
-                "name": "baking soda / bicarb of soda",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "rising_agent",
-                "class": "leavening"
-            },
-            {
-                "name": "canprepared vanilla",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "1 package (about 11.5 oz. size) fudge stripe cookies",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "nilla vanilla wafers",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "pinch salt",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "pack vanilla",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            }
-        ]
-    },
-    {
-        "generated_id": "gen_recipe_6",
-        "fitness_score": 87.95,
-        "ingredients": [
-            {
-                "name": "cornflour",
-                "amount": 1.0,
-                "unit": "tsp",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "1 cup powdered sugar, sifted",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "sweetener",
-                "class": "sweet"
-            },
-            {
-                "name": "10 foil-wrapped chocolate coins",
-                "amount": 10.0,
                 "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
                 "name": "egg beaters",
-                "amount": 2.0,
+                "amount": 4.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "role": "rising_agent",
+                "class": "leavening"
+            },
+            {
+                "name": "semi-sweet chocolate mini morsels",
+                "amount": 0.3333333333333333,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "chickpeas",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "just",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "clear vanilla",
+                "amount": 8.0,
+                "unit": "grams",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "tarragon",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_8",
+        "fitness_score": 83.66,
+        "ingredients": [
+            {
+                "name": "flax seed meal",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "role": "structural",
+                "class": "dry"
+            },
+            {
+                "name": "sparkling sugar",
+                "amount": 0.25,
+                "unit": "cups",
+                "role": "sweetener",
+                "class": "sweet"
+            },
+            {
+                "name": "smooth peanut butter",
+                "amount": 0.5,
+                "unit": "cups",
+                "role": "fat",
+                "class": "dairy_or_oil"
+            },
+            {
+                "name": "beaten egg",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "role": "binder",
+                "class": "protein"
+            },
+            {
+                "name": "yeast",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
@@ -426,182 +578,30 @@
                 "class": "spice_or_flavor"
             },
             {
-                "name": "fennel",
-                "amount": 1.0,
-                "unit": "tbsp",
+                "name": "regular",
+                "amount": 3.0,
+                "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "nilla vanilla wafers",
+                "name": "vanilla custard",
                 "amount": 1.0,
-                "unit": "cups",
+                "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "oat",
-                "amount": 1.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "rasher bacon",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            }
-        ]
-    },
-    {
-        "generated_id": "gen_recipe_7",
-        "fitness_score": 87.83,
-        "ingredients": [
-            {
-                "name": "wholewheat flour",
-                "amount": 13.0,
-                "unit": "cups",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "red crystal sugar",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "sweetener",
-                "class": "sweet"
-            },
-            {
-                "name": "buttery round crackers",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "fat",
-                "class": "dairy_or_oil"
-            },
-            {
-                "name": "8 large eggs",
+                "name": "candles",
                 "amount": 8.0,
                 "unit": "units",
-                "role": "binder",
-                "class": "protein"
+                "role": "add_in_or_flavor",
+                "class": "misc"
             },
             {
-                "name": "baking soda / bicarb of soda",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "rising_agent",
-                "class": "leavening"
-            },
-            {
-                "name": "master",
-                "amount": 4.0,
+                "name": "lemon juice from concentrate",
+                "amount": 0.25,
                 "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "american cheese",
-                "amount": 2.0,
-                "unit": "ounces",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "1 can cooked sweet adzuki bean paste",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "2 tablespoons pepitas (optional but highly recommended)",
-                "amount": 2.0,
-                "unit": "tbsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "nilla vanilla wafers",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            }
-        ]
-    },
-    {
-        "generated_id": "gen_recipe_8",
-        "fitness_score": 87.83,
-        "ingredients": [
-            {
-                "name": "unbleached white flour",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "demerara sugar",
-                "amount": 4.0,
-                "unit": "tbsp",
-                "role": "sweetener",
-                "class": "sweet"
-            },
-            {
-                "name": "avocado oil",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "fat",
-                "class": "dairy_or_oil"
-            },
-            {
-                "name": "1 egg, slightly beaten",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "binder",
-                "class": "protein"
-            },
-            {
-                "name": "yeast cakes",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "rising_agent",
-                "class": "leavening"
-            },
-            {
-                "name": "baking sticks",
-                "amount": 0.75,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "tins",
-                "amount": 1.0,
-                "unit": "grams",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "2 boxes instant vanilla pudding",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "toasted coconut for around the cake",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "rasher bacon",
-                "amount": 2.0,
-                "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             }
@@ -609,530 +609,530 @@
     },
     {
         "generated_id": "gen_recipe_9",
-        "fitness_score": 87.53,
+        "fitness_score": 83.62,
         "ingredients": [
             {
-                "name": "fluffed regular flour",
+                "name": "corn meal",
                 "amount": 2.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "light karo syrup",
+                "name": "colored sugar",
                 "amount": 1.0,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butter - no substitute",
-                "amount": 2.0,
+                "name": "creamy peanut butter",
+                "amount": 0.75,
                 "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "2 eggs, room temperature",
-                "amount": 2.0,
-                "unit": "units",
+                "name": "liquid egg substitute",
+                "amount": 34.0,
+                "unit": "cups",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "nutritional yeast",
-                "amount": 1.0,
-                "unit": "tbsp",
+                "name": "double acting baking powder",
+                "amount": 1.5,
+                "unit": "tsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "masa harina",
-                "amount": 0.5,
-                "unit": "cups",
+                "name": "instant coffee crystals",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "1/2 c. chopped maraschino cherries, drained",
-                "amount": 0.5,
-                "unit": "cups",
+                "name": "vanilla custard",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "jalapeno peppers",
+                "amount": 2.0,
+                "unit": "tbsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "oat",
-                "amount": 1.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "variation",
+                "name": "just",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "walnut",
-                "amount": 1.0,
-                "unit": "dash",
-                "role": "add_in_or_flavor",
-                "class": "misc"
+                "name": "clear vanilla",
+                "amount": 8.0,
+                "unit": "grams",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_10",
-        "fitness_score": 87.49,
+        "fitness_score": 83.45,
         "ingredients": [
             {
-                "name": "fluffed regular flour",
-                "amount": 2.0,
-                "unit": "cups",
+                "name": "flax seed meal",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "karo syrup",
-                "amount": 0.5,
-                "unit": "tbsp",
+                "name": "sparkling sugar",
+                "amount": 0.25,
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butternut flavoring",
-                "amount": 3.0,
-                "unit": "tsp",
+                "name": "extra virgin olive oil",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "eggnog",
-                "amount": 1.75,
-                "unit": "cups",
+                "name": "range eggs",
+                "amount": 6.0,
+                "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "baking soda / bicarb of soda",
-                "amount": 0.5,
-                "unit": "tsp",
+                "name": "active dry yeast",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "turmeric",
-                "amount": 1.0,
-                "unit": "dash",
+                "name": "matcha green tea powder",
+                "amount": 2.0,
+                "unit": "tsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "backpacking biscuit mix",
+                "name": "nahum",
                 "amount": 2.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "mashing potato",
-                "amount": 800.0,
-                "unit": "grams",
+                "name": "chestnuts",
+                "amount": 14.0,
+                "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "nilla vanilla wafers",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "ladyfingers",
-                "amount": 3.0,
+                "name": "candles",
+                "amount": 8.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
+            },
+            {
+                "name": "vanilla beans",
+                "amount": 2.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_11",
-        "fitness_score": 87.45,
+        "fitness_score": 83.4,
         "ingredients": [
             {
-                "name": "arrowroot flour",
-                "amount": 0.25,
+                "name": "rye flour",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "multicolored multicolored sugar nonpareils, for topping",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "liquid sugar substitute",
+                "amount": 1.75,
+                "unit": "tsp",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "3 tsp superior vanilla butter nut flavor",
-                "amount": 3.0,
-                "unit": "tsp",
+                "name": "extra virgin olive oil",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "egg yolks reserve whites",
-                "amount": 4.0,
+                "name": "range eggs",
+                "amount": 6.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active dry yeast",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "red peppers",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "cream-filled vanilla snack cakes",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "crepes",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "kosher salt as needed",
+                "name": "vanilla custard",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "seasoning salt",
-                "amount": 0.5,
-                "unit": "tsp",
+                "name": "nahum",
+                "amount": 2.0,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "vanilla beans",
+                "amount": 2.0,
+                "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
+            },
+            {
+                "name": "lemon wedge",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "candles",
+                "amount": 8.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_12",
-        "fitness_score": 87.07,
+        "fitness_score": 83.37,
         "ingredients": [
             {
-                "name": "king midas flour",
-                "amount": 5.5,
+                "name": "potato flour",
+                "amount": 0.6666666666666666,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "demerara sugar",
-                "amount": 4.0,
-                "unit": "tbsp",
+                "name": "blackstrap molasses",
+                "amount": 1.0,
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "neutral flavored cooking oil",
+                "name": "butter flavor",
                 "amount": 0.75,
                 "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "pasteurized egg",
-                "amount": 2.0,
-                "unit": "tbsp",
+                "name": "range eggs",
+                "amount": 6.0,
+                "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "cake yeast",
+                "amount": 1.0,
+                "unit": "cups",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "blue cheese",
-                "amount": 50.0,
-                "unit": "grams",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "various fruit",
+                "name": "imitation vanilla",
                 "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             },
             {
-                "name": "tomato juice",
-                "amount": 0.75,
+                "name": "turkey",
+                "amount": 2.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "no",
+                "name": "jalapeno",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "kosher salt as needed",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "celtic sea salt",
+                "amount": 0.25,
+                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
+            },
+            {
+                "name": "pancakes",
+                "amount": 12.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_13",
-        "fitness_score": 86.66,
+        "fitness_score": 82.99,
         "ingredients": [
             {
-                "name": "white spelt flour",
-                "amount": 1.0,
+                "name": "millet flour",
+                "amount": 14.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "unrefined light brown sugar",
-                "amount": 0.75,
+                "name": "colored crystal sugar",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "olio nuovo (or extra virgin olive oil) for serving, optional",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "grapeseed oil",
+                "amount": 65.0,
+                "unit": "grams",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "1 egg, slightly beaten",
-                "amount": 1.0,
+                "name": "range eggs",
+                "amount": 6.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "1/8 teaspoon fine sea salt",
-                "amount": 0.125,
+                "name": "jalapeno",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "red gel food coloring",
+                "amount": 0.5,
                 "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "role": "add_in_or_flavor",
+                "class": "misc"
             },
             {
-                "name": "vanilla ice cream",
-                "amount": 3.0,
+                "name": "biscuit mix",
+                "amount": 2.25,
                 "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "role": "add_in_or_flavor",
+                "class": "misc"
             },
             {
-                "name": "vanilla ready",
+                "name": "vanilla buttercream frosting",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "herbes",
-                "amount": 2.0,
-                "unit": "grams",
+                "name": "lump crabmeat",
+                "amount": 1.0,
+                "unit": "lbs",
                 "role": "add_in_or_flavor",
                 "class": "misc"
-            },
-            {
-                "name": "vanilla protein powder",
-                "amount": 0.25,
-                "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_14",
-        "fitness_score": 86.58,
+        "fitness_score": 82.97,
         "ingredients": [
             {
-                "name": "king midas flour",
-                "amount": 5.5,
-                "unit": "cups",
+                "name": "barley flour",
+                "amount": 6.0,
+                "unit": "tbsp",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "red crystal sugar",
+                "name": "sanding sugar",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butternut flavoring",
-                "amount": 3.0,
-                "unit": "tsp",
+                "name": "creamy peanut butter",
+                "amount": 0.75,
+                "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "eggnog",
-                "amount": 1.75,
+                "name": "greek yogurt",
+                "amount": 0.3333333333333333,
                 "unit": "cups",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "baking soda / bicarb of soda",
-                "amount": 0.5,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "2 teaspoons ground cinnamon",
-                "amount": 2.0,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "name": "pancakes",
+                "amount": 12.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             },
             {
-                "name": "catsup",
+                "name": "cocoa",
                 "amount": 0.5,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "green cabbage",
+                "name": "concentrate",
                 "amount": 1.0,
-                "unit": "tbsp",
+                "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "2 tablespoons pepitas (optional but highly recommended)",
+                "name": "amaretto",
                 "amount": 2.0,
                 "unit": "tbsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "vanilla sandwich cream cookies",
-                "amount": 11.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "name": "moist coconut",
+                "amount": 2.0,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_15",
-        "fitness_score": 86.44,
+        "fitness_score": 82.92,
         "ingredients": [
             {
-                "name": "fluffed regular flour",
-                "amount": 2.0,
+                "name": "oat flour",
+                "amount": 0.5,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "light karo syrup",
-                "amount": 1.0,
+                "name": "powered sugar",
+                "amount": 4.0,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butter - no substitute",
-                "amount": 2.0,
-                "unit": "cups",
+                "name": "yellow butter",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "2 eggs, room temperature",
-                "amount": 2.0,
+                "name": "egg beaters",
+                "amount": 4.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "nutritional yeast",
+                "name": "active dry yeast",
                 "amount": 1.0,
-                "unit": "tbsp",
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "catsup",
-                "amount": 0.5,
+                "name": "feta cheese",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "jeremiah",
+                "name": "coarse salt",
+                "amount": 0.5,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "celtic sea salt",
+                "amount": 0.25,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "just",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "oat",
-                "amount": 1.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "walnut",
-                "amount": 1.0,
-                "unit": "dash",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "light vegetable stock",
-                "amount": 6.0,
+                "name": "vegetable or",
+                "amount": 0.5,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
@@ -1141,303 +1141,303 @@
     },
     {
         "generated_id": "gen_recipe_16",
-        "fitness_score": 86.42,
+        "fitness_score": 82.78,
         "ingredients": [
             {
-                "name": "cook oatmeal",
-                "amount": 6.0,
+                "name": "brown rice flour",
+                "amount": 0.75,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "gently packed light brown sugar",
+                "name": "castor sugar",
                 "amount": 0.5,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "non-dairy buttery spread",
-                "amount": 0.5,
-                "unit": "cups",
+                "name": "neutral oil",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "egg yolks reserve whites",
-                "amount": 4.0,
+                "name": "range eggs",
+                "amount": 6.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
+                "name": "double acting baking powder",
+                "amount": 1.5,
                 "unit": "tsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "seasalt",
-                "amount": 0.5,
+                "name": "imitation vanilla",
+                "amount": 1.0,
                 "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "sandwiches",
-                "amount": 3.0,
+                "name": "celtic sea salt",
+                "amount": 0.25,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "biscuit",
+                "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "natural yoghurt",
+                "name": "chicken broth",
                 "amount": 0.5,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "vanilla bean",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "vanilla vodka",
-                "amount": 2.0,
+                "name": "semi-sweet chocolate baking squares",
+                "amount": 4.0,
                 "unit": "cups",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_17",
-        "fitness_score": 86.4,
+        "fitness_score": 82.68,
         "ingredients": [
             {
-                "name": "stone ground cornmeal",
-                "amount": 1.0,
+                "name": "amaranth flour",
+                "amount": 12.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "palm sugar",
-                "amount": 0.3333333333333333,
+                "name": "blackstrap molasses",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "1/3 cup butter, softened",
-                "amount": 0.3333333333333333,
-                "unit": "cups",
+                "name": "bonnet margarine",
+                "amount": 3.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "sliced fruit of choice to match yogurt flavor",
-                "amount": 1.0,
+                "name": "o lakes eggs",
+                "amount": 3.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "1/2 teaspoons baking soda",
-                "amount": 0.5,
-                "unit": "tsp",
+                "name": "yeast",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "gran marnier",
-                "amount": 0.5,
+                "name": "vanilla ice cream",
+                "amount": 2.0,
                 "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "oat",
-                "amount": 1.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "lite salt",
-                "amount": 0.5,
-                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "1 tbsp of vanilla essence",
+                "name": "coconuts",
+                "amount": 2.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "color",
                 "amount": 1.0,
-                "unit": "tbsp",
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "coarse salt",
+                "amount": 0.5,
+                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "1/8 teaspoon fine sea salt",
-                "amount": 0.125,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "name": "cupcakes",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_18",
-        "fitness_score": 86.34,
+        "fitness_score": 82.56,
         "ingredients": [
             {
-                "name": "king midas flour",
-                "amount": 5.5,
+                "name": "spelt flour",
+                "amount": 0.5,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "demerara sugar",
-                "amount": 4.0,
-                "unit": "tbsp",
+                "name": "colored crystal sugar",
+                "amount": 1.0,
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "neutral flavored cooking oil",
-                "amount": 0.75,
-                "unit": "cups",
+                "name": "extra virgin olive oil",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "sliced fruit of choice to match yogurt flavor",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "nonfat plain yogurt",
+                "amount": 0.3333333333333333,
+                "unit": "cups",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "nutritional yeast",
+                "name": "active dry yeast",
                 "amount": 1.0,
-                "unit": "tbsp",
+                "unit": "units",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "strawberry jell",
+                "name": "pistachio",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "blue cheese",
-                "amount": 50.0,
-                "unit": "grams",
+                "name": "caramels",
+                "amount": 14.0,
+                "unit": "ounces",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "marsala",
-                "amount": 0.5,
+                "name": "fine semolina",
+                "amount": 0.25,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "4 cups / 908g heavy whipping cream",
-                "amount": 4.0,
-                "unit": "cups",
+                "name": "lemon wedge",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "grated nutmeg",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "name": "cutter",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_19",
-        "fitness_score": 86.32,
+        "fitness_score": 82.13,
         "ingredients": [
             {
-                "name": "buckwheat flour",
-                "amount": 1.5,
-                "unit": "cups",
+                "name": "flax seed meal",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "unrefined light brown sugar",
+                "name": "granulated sugar replacement",
                 "amount": 0.75,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "sunflower oil",
-                "amount": 0.5,
+                "name": "creamy peanut butter",
+                "amount": 0.75,
                 "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "2 eggs, room temperature",
-                "amount": 2.0,
+                "name": "o lakes eggs",
+                "amount": 3.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "65 vanilla wafers, divided",
-                "amount": 65.0,
+                "name": "vanilla buttercream frosting",
+                "amount": 1.0,
                 "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "masa harina",
-                "amount": 0.5,
+                "name": "pumpkin puree",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "vanilla cupcakes",
+                "name": "cinnamon stick",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "fine semolina",
+                "amount": 0.25,
+                "unit": "cups",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "vanilla wafers",
                 "amount": 12.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "strawberry popping",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "vanilla stevia drops",
-                "amount": 8.0,
-                "unit": "cups",
+                "unit": "ounces",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             }
@@ -1445,151 +1445,151 @@
     },
     {
         "generated_id": "gen_recipe_20",
-        "fitness_score": 86.12,
+        "fitness_score": 82.08,
         "ingredients": [
             {
-                "name": "cornflour",
-                "amount": 1.0,
-                "unit": "tsp",
+                "name": "amaranth flour",
+                "amount": 12.0,
+                "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "light karo syrup",
+                "name": "sanding sugar",
                 "amount": 1.0,
-                "unit": "cups",
+                "unit": "units",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "promise buttery spread",
-                "amount": 6.0,
-                "unit": "tbsp",
+                "name": "bonnet margarine",
+                "amount": 3.0,
+                "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "3 to 4 tablespoons egg whites*",
-                "amount": 3.0,
+                "name": "range eggs",
+                "amount": 6.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "double acting baking powder",
-                "amount": 3.0,
-                "unit": "tsp",
+                "name": "cake yeast",
+                "amount": 1.0,
+                "unit": "cups",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "180 grams dark chocolate - broken up",
-                "amount": 180.0,
-                "unit": "grams",
-                "role": "add_in_or_flavor",
-                "class": "misc"
+                "name": "vanilla custard",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             },
             {
-                "name": "3 drops green food coloring, more or less as desired",
-                "amount": 3.0,
+                "name": "chickpeas",
+                "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "passionfruits",
-                "amount": 2.0,
-                "unit": "units",
+                "name": "tarragon",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "valley",
-                "amount": 1.5,
+                "name": "nut meats",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "1 teaspoon ground lavender, for sprinkling on top",
+                "name": "vanilla pudding",
                 "amount": 1.0,
-                "unit": "tsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_21",
-        "fitness_score": 86.05,
+        "fitness_score": 82.03,
         "ingredients": [
             {
-                "name": "fluffed regular flour",
-                "amount": 2.0,
-                "unit": "cups",
+                "name": "barley flour",
+                "amount": 6.0,
+                "unit": "tbsp",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "karo syrup",
-                "amount": 0.5,
-                "unit": "tbsp",
+                "name": "sparkling sugar",
+                "amount": 0.25,
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butter or non-stick spray, for your griddle",
+                "name": "neutral oil",
                 "amount": 1.0,
                 "unit": "units",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "egg beaters",
-                "amount": 2.0,
-                "unit": "units",
+                "name": "nonfat plain yogurt",
+                "amount": 0.3333333333333333,
+                "unit": "cups",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "baking soda / bicarb of soda",
-                "amount": 0.5,
+                "name": "double acting baking powder",
+                "amount": 1.5,
                 "unit": "tsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "lite salt",
-                "amount": 0.5,
+                "name": "celtic sea salt",
+                "amount": 0.25,
                 "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "peas",
-                "amount": 1.0,
+                "name": "vanilla frosting",
+                "amount": 2.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "pasta sauce",
+                "amount": 0.5,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "canprepared vanilla",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "vanilla bean paste",
+                "amount": 2.0,
+                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "1 package (about 11.5 oz. size) fudge stripe cookies",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "celery salt",
-                "amount": 1.0,
-                "unit": "tsp",
+                "name": "clear vanilla",
+                "amount": 8.0,
+                "unit": "grams",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             }
@@ -1597,75 +1597,75 @@
     },
     {
         "generated_id": "gen_recipe_22",
-        "fitness_score": 86.0,
+        "fitness_score": 81.95,
         "ingredients": [
             {
-                "name": "stone ground cornmeal",
-                "amount": 1.0,
+                "name": "amaranth flour",
+                "amount": 12.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "palm sugar",
-                "amount": 0.3333333333333333,
+                "name": "unrefined sugar",
+                "amount": 14.0,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butternut flavoring",
-                "amount": 3.0,
-                "unit": "tsp",
+                "name": "liquid butter",
+                "amount": 1.0,
+                "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "sliced fruit of choice to match yogurt flavor",
+                "name": "low-fat plain yogurt",
                 "amount": 1.0,
-                "unit": "units",
+                "unit": "cups",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "1/2 teaspoons baking soda",
-                "amount": 0.5,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "gran marnier",
-                "amount": 0.5,
-                "unit": "cups",
+                "name": "chocolate bits",
+                "amount": 12.0,
+                "unit": "ounces",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "1 tbsp of vanilla essence",
+                "name": "cutter",
                 "amount": 1.0,
-                "unit": "tbsp",
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "vanilla flavor",
+                "amount": 2.0,
+                "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "oat",
-                "amount": 1.5,
+                "name": "fresh corn kernels",
+                "amount": 4.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "seasalt",
-                "amount": 0.5,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "saltine cracker crumbs",
-                "amount": 0.3333333333333333,
-                "unit": "cups",
+                "name": "french vanilla pudding",
+                "amount": 2.0,
+                "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             }
@@ -1673,74 +1673,74 @@
     },
     {
         "generated_id": "gen_recipe_23",
-        "fitness_score": 85.67,
+        "fitness_score": 81.93,
         "ingredients": [
             {
-                "name": "2 cups unbleached all-purpose flour",
-                "amount": 2.0,
+                "name": "rye flour",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "tangerine juice honey",
+                "name": "colored sugar",
                 "amount": 1.0,
-                "unit": "tbsp",
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "buttermilk biscuits",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "creamy peanut butter",
+                "amount": 0.75,
+                "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "4 eggs, lightly beaten",
-                "amount": 4.0,
-                "unit": "units",
+                "name": "beaten egg",
+                "amount": 2.0,
+                "unit": "tbsp",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "evaporated milk",
-                "amount": 0.75,
-                "unit": "cups",
+                "name": "jalapeno peppers",
+                "amount": 2.0,
+                "unit": "tbsp",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "television",
+                "name": "cinnamon powder",
                 "amount": 1.0,
                 "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "valley",
-                "amount": 1.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "light vanilla soymilk",
-                "amount": 2.0,
-                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "buns",
-                "amount": 3.0,
+                "name": "vanilla custard",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "clear vanilla",
+                "amount": 8.0,
+                "unit": "grams",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "just",
+                "amount": 1.0,
                 "unit": "units",
                 "role": "add_in_or_flavor",
                 "class": "misc"
@@ -1749,151 +1749,151 @@
     },
     {
         "generated_id": "gen_recipe_24",
-        "fitness_score": 85.59,
+        "fitness_score": 81.92,
         "ingredients": [
             {
-                "name": "fluffed regular flour",
+                "name": "unbleached white flour",
                 "amount": 2.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "light karo syrup",
-                "amount": 1.0,
+                "name": "artificial sweetener",
+                "amount": 23.0,
                 "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "butter - no substitute",
-                "amount": 2.0,
+                "name": "smooth peanut butter",
+                "amount": 0.5,
                 "unit": "cups",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "2 eggs, room temperature",
-                "amount": 2.0,
+                "name": "range eggs",
+                "amount": 6.0,
                 "unit": "units",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
+                "name": "double acting baking powder",
+                "amount": 1.5,
                 "unit": "tsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "catsup",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "walnut",
-                "amount": 1.0,
-                "unit": "dash",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "light vegetable stock",
-                "amount": 6.0,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "cream-filled vanilla snack cakes",
-                "amount": 1.0,
-                "unit": "cups",
+                "name": "celtic sea salt",
+                "amount": 0.25,
+                "unit": "tsp",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "fresh corn kernels",
-                "amount": 3.0,
+                "name": "vanilla custard",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
+            },
+            {
+                "name": "dressing",
+                "amount": 1.0,
+                "unit": "units",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "whole kernel corn",
+                "amount": 1.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
+            },
+            {
+                "name": "vanilla flavoring",
+                "amount": 1.5,
+                "unit": "tsp",
+                "role": "seasoning",
+                "class": "spice_or_flavor"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_25",
-        "fitness_score": 85.38,
+        "fitness_score": 81.89,
         "ingredients": [
             {
-                "name": "whole wheat pastry flour",
-                "amount": 0.5,
+                "name": "matzo meal",
+                "amount": 13.0,
                 "unit": "cups",
                 "role": "structural",
                 "class": "dry"
             },
             {
-                "name": "1 dash honey",
-                "amount": 1.0,
-                "unit": "dash",
+                "name": "brown rice syrup",
+                "amount": 0.25,
+                "unit": "cups",
                 "role": "sweetener",
                 "class": "sweet"
             },
             {
-                "name": "macadamia nut butter",
-                "amount": 0.25,
-                "unit": "cups",
+                "name": "cold butter",
+                "amount": 4.0,
+                "unit": "tbsp",
                 "role": "fat",
                 "class": "dairy_or_oil"
             },
             {
-                "name": "egg yolks reserve whites",
-                "amount": 4.0,
-                "unit": "units",
+                "name": "beaten egg",
+                "amount": 2.0,
+                "unit": "tbsp",
                 "role": "binder",
                 "class": "protein"
             },
             {
-                "name": "bread machine yeast",
-                "amount": 2.25,
-                "unit": "tsp",
+                "name": "active yeast",
+                "amount": 1.0,
+                "unit": "tbsp",
                 "role": "rising_agent",
                 "class": "leavening"
             },
             {
-                "name": "48 whole peppermint candies, plus sprinkles for garnish",
-                "amount": 48.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "light vanilla soymilk",
+                "name": "butternut",
                 "amount": 2.0,
                 "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "role": "add_in_or_flavor",
+                "class": "misc"
             },
             {
-                "name": "1/2 cup breakstone's or knudsen sour cream",
-                "amount": 0.5,
+                "name": "chestnuts",
+                "amount": 14.0,
                 "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             },
             {
-                "name": "vanilla vodka",
-                "amount": 2.0,
-                "unit": "cups",
+                "name": "erythritol",
+                "amount": 1.5,
+                "unit": "tbsp",
+                "role": "add_in_or_flavor",
+                "class": "misc"
+            },
+            {
+                "name": "vanilla custard",
+                "amount": 1.0,
+                "unit": "units",
                 "role": "seasoning",
                 "class": "spice_or_flavor"
             },
             {
-                "name": "none none heavy cream, to serve",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "vegetable or",
+                "amount": 0.5,
+                "unit": "cups",
                 "role": "add_in_or_flavor",
                 "class": "misc"
             }
