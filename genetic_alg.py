@@ -1,6 +1,5 @@
 import json
 import random
-import re
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -8,206 +7,131 @@ with open("knowledgebase.json", "r") as f:
     kb = json.load(f)
 
 recipes = kb["recipes"]
-
 if len(recipes) > 5000:
     recipes = random.sample(recipes, 5000)
 
-def parse_quantity_and_unit(raw_text):
-    if not raw_text:
-        return 1.0, "units"
-    
-    match = re.search(r"^([\d\s\/\.\-]+)?\s*(c|cup|cups|tbsp|tablespoon|tablespoons|tsp|teaspoon|teaspoons|g|gram|grams|oz|ounce|ounces|lb|pound|pounds|clove|cloves|pinch|dash)?", str(raw_text).lower())
-    
-    amount_str = "1.0"
-    unit = "units"
-    
-    if match:
-        raw_amt = match.group(1)
-        raw_unit = match.group(2)
-        
-        if raw_amt:
-            raw_amt = raw_amt.strip()
-            try:
-                if "/" in raw_amt:
-                    parts = raw_amt.split()
-                    val = 0.0
-                    for p in parts:
-                        if "/" in p:
-                            num, denom = p.split("/")
-                            val += float(num) / float(denom)
-                        else:
-                            val += float(p)
-                    amount_str = str(val)
-                else:
-                    amount_str = str(float(raw_amt.split("-")[0].strip()))
-            except:
-                amount_str = "1.0"
-        
-        if raw_unit:
-            if "c" in raw_unit or "cup" in raw_unit:
-                unit = "cups"
-            elif "tbsp" in raw_unit or "tablespoon" in raw_unit:
-                unit = "tbsp"
-            elif "tsp" in raw_unit or "teaspoon" in raw_unit:
-                unit = "tsp"
-            elif "g" in raw_unit or "gram" in raw_unit:
-                unit = "grams"
-            elif "oz" in raw_unit or "ounce" in raw_unit:
-                unit = "ounces"
-            elif "lb" in raw_unit or "pound" in raw_unit:
-                unit = "lbs"
-            else:
-                unit = raw_unit
-                
-    try:
-        amount_val = float(amount_str)
-    except:
-        amount_val = 1.0
-        
-    return amount_val, unit
-
-corpus = []
-for r in recipes:
-    ing_names = [ing["name"] for ing in r["ingredients"]]
-    corpus.append(" ".join(ing_names))
-
+corpus = [" ".join([ing["name"] for ing in r["ingredients"]]) for r in recipes]
 vectorizer = TfidfVectorizer()
 vectorizer.fit(corpus)
-feature_names = vectorizer.get_feature_names_out()
-idf_values = vectorizer.idf_
-ingredient_idf = dict(zip(feature_names, idf_values))
+ingredient_idf = dict(zip(vectorizer.get_feature_names_out(), vectorizer.idf_))
 
 def get_idf(name):
-    words = name.split()
-    scores = [ingredient_idf.get(w, 2.0) for w in words]
+    scores = [ingredient_idf.get(w, 2.0) for w in name.split()]
     return max(scores) if scores else 1.0
 
 role_pool = {}
-seen_role_ingredients = {}
-
 for r in recipes:
     for ing in r["ingredients"]:
         role = ing["role"]
-        name = ing["name"]
-        raw_text = ing.get("raw_text", "")
-        
-        amount, unit = parse_quantity_and_unit(raw_text)
-        
-        enriched_ing = {
-            "name": name,
-            "role": role,
-            "class": ing["class"],
-            "amount": amount,
-            "unit": unit
-        }
-        
         if role not in role_pool:
             role_pool[role] = []
-            seen_role_ingredients[role] = set()
-            
-        if name not in seen_role_ingredients[role]:
-            seen_role_ingredients[role].add(name)
-            role_pool[role].append(enriched_ing)
+        if not any(i["name"] == ing["name"] for i in role_pool[role]):
+            role_pool[role].append(ing)
 
-required_roles = ["structural", "sweetener", "fat", "binder", "rising_agent"]
+required_roles = ["structural", "sweetener", "fat", "binder", "rising_agent", "seasoning"]
 
-def cap_extras(recipe_ingredients, max_extras=5):
-    required = [ing for ing in recipe_ingredients if ing["role"] in required_roles]
-    extras = [ing for ing in recipe_ingredients if ing["role"] not in required_roles]
-    seen_names = set()
-    unique_extras = []
-    for ex in extras:
-        if ex["name"] not in seen_names:
-            seen_names.add(ex["name"])
-            unique_extras.append(ex)
-            
-    if len(unique_extras) > max_extras:
-        unique_extras = random.sample(unique_extras, max_extras)
-    return required + unique_extras
+def get_initial_bp(role):
+    if role == "structural": return 100.0
+    if role == "sweetener": return random.uniform(50.0, 120.0)
+    if role == "fat": return random.uniform(40.0, 80.0)
+    if role == "binder": return random.uniform(20.0, 80.0)
+    if role == "rising_agent": return random.uniform(1.0, 3.0)
+    if role == "seasoning": return random.uniform(0.5, 2.0)
+    return random.uniform(5.0, 30.0)
 
 def create_random_recipe():
     recipe_ingredients = []
     for role in required_roles:
         if role in role_pool and role_pool[role]:
-            chosen = random.choice(role_pool[role])
-            recipe_ingredients.append(chosen.copy())
+            ing = random.choice(role_pool[role]).copy()
+            ing["bp"] = get_initial_bp(role)
+            recipe_ingredients.append(ing)
             
     optional_roles = [k for k in role_pool.keys() if k not in required_roles]
-    if optional_roles:
-        num_extras = random.randint(1, 3)
-        for _ in range(num_extras):
-            opt_role = random.choice(optional_roles)
-            if role_pool[opt_role]:
-                recipe_ingredients.append(random.choice(role_pool[opt_role]).copy())
+    for _ in range(random.randint(1, 3)):
+        opt_role = random.choice(optional_roles)
+        if role_pool[opt_role]:
+            ing = random.choice(role_pool[opt_role]).copy()
+            ing["bp"] = get_initial_bp(opt_role)
+            recipe_ingredients.append(ing)
             
-    return cap_extras(recipe_ingredients, max_extras=5)
+    return recipe_ingredients
 
 def evaluate_fitness(recipe_ingredients):
-    present_roles = {ing["role"] for ing in recipe_ingredients}
-    missing_roles = [r for r in required_roles if r not in present_roles]
+    bp_totals = {
+        "structural": 0.0, "sweetener": 0.0, "fat": 0.0, 
+        "binder": 0.0, "rising_agent": 0.0, "seasoning": 0.0
+    }
     
-    if missing_roles:
+    for ing in recipe_ingredients:
+        if ing["role"] in bp_totals:
+            bp_totals[ing["role"]] += ing["bp"]
+            
+    if bp_totals["structural"] == 0:
         return 0.01
-    
+
+    penalty = 0.0
+    penalty += abs(100.0 - bp_totals["structural"])
+    if bp_totals["sweetener"] < 40 or bp_totals["sweetener"] > 150: penalty += 50
+    if bp_totals["fat"] < 30 or bp_totals["fat"] > 100: penalty += 50
+    if bp_totals["binder"] < 20 or bp_totals["binder"] > 100: penalty += 50
+    if bp_totals["rising_agent"] < 1 or bp_totals["rising_agent"] > 4: penalty += 50
+    if bp_totals["seasoning"] > 3: penalty += 50
+
     rarity_score = sum(get_idf(ing["name"]) for ing in recipe_ingredients)
-    diversity_bonus = len(recipe_ingredients) * 0.5
-    return rarity_score + diversity_bonus
+    diversity_bonus = len(recipe_ingredients) * 2.0
+    
+    return max(0.01, rarity_score + diversity_bonus - (penalty * 0.5))
 
 def crossover(parent1, parent2):
     child = []
-    for role in required_roles:
-        p1_ings = [ing for ing in parent1 if ing["role"] == role]
-        p2_ings = [ing for ing in parent2 if ing["role"] == role]
-        pool = p1_ings + p2_ings
-        if pool:
-            child.append(random.choice(pool).copy())
-            
-    extras_p1 = [ing for ing in parent1 if ing["role"] not in required_roles]
-    extras_p2 = [ing for ing in parent2 if ing["role"] not in required_roles]
-    all_extras = extras_p1 + extras_p2
+    roles_seen = set([i["role"] for i in parent1 + parent2])
     
-    if all_extras:
-        sample_size = min(len(all_extras), random.randint(1, 5))
-        chosen_extras = random.sample(all_extras, sample_size)
-        for ex in chosen_extras:
-            child.append(ex.copy())
-                
-    return cap_extras(child, max_extras=5)
+    for role in roles_seen:
+        pool = [ing for ing in parent1 + parent2 if ing["role"] == role]
+        if pool:
+            chosen = random.choice(pool).copy()
+            chosen["bp"] = sum(i["bp"] for i in pool) / len(pool)
+            child.append(chosen)
+            
+    if len(child) > 10:
+        child = random.sample(child, 10)
+        
+    for ing in child:
+        if ing["role"] == "structural":
+            ing["bp"] = 100.0
+            
+    return child
 
 def mutate(recipe_ingredients):
     mutated = [ing.copy() for ing in recipe_ingredients]
     
-    if random.random() < 0.4 and mutated:
+    if random.random() < 0.5 and mutated:
         idx = random.randrange(len(mutated))
         role = mutated[idx]["role"]
-        if role in role_pool and role_pool[role]:
-            replacement = random.choice(role_pool[role])
-            mutated[idx] = replacement.copy()
-            
-    elif random.random() < 0.3:
-        optional_roles = [k for k in role_pool.keys() if k not in required_roles]
-        if optional_roles:
-            opt_role = random.choice(optional_roles)
-            if role_pool[opt_role]:
-                new_ing = random.choice(role_pool[opt_role])
-                if not any(i["name"] == new_ing["name"] for i in mutated):
-                    mutated.append(new_ing.copy())
-                    
-    return cap_extras(mutated, max_extras=5)
+        if random.random() < 0.5:
+            if role in role_pool and role_pool[role]:
+                new_ing = random.choice(role_pool[role]).copy()
+                new_ing["bp"] = mutated[idx]["bp"]
+                mutated[idx] = new_ing
+        else:
+            if role != "structural":
+                mutated[idx]["bp"] *= random.uniform(0.8, 1.2)
+                
+    return mutated
 
 population_size = 1000
-generations = 10
-mutation_rate = 0.3
+generations = 15
+mutation_rate = 0.4
 
 population = [create_random_recipe() for _ in range(population_size)]
 
 for gen in range(generations):
     scored_pop = [(ind, evaluate_fitness(ind)) for ind in population]
     scored_pop.sort(key=lambda x: x[1], reverse=True)
-    
     survivors = [ind for ind, score in scored_pop[:population_size // 2]]
-    
     next_generation = survivors.copy()
+    
     while len(next_generation) < population_size:
         p1, p2 = random.sample(survivors, 2)
         child = crossover(p1, p2)
@@ -231,22 +155,7 @@ for ind, score in final_scored:
     if len(unique_recipes) >= 25:
         break
 
-output_results = []
-for idx, (recipe, score) in enumerate(unique_recipes):
-    output_results.append({
-        "generated_id": f"gen_recipe_{idx+1}",
-        "fitness_score": round(score, 2),
-        "ingredients": [
-            {
-                "name": ing["name"],
-                "amount": ing["amount"],
-                "unit": ing["unit"],
-                "role": ing["role"],
-                "class": ing["class"]
-            }
-            for ing in recipe
-        ]
-    })
+output_results = [{"generated_id": f"gen_recipe_{idx+1}", "fitness_score": round(score, 2), "ingredients": recipe} for idx, (recipe, score) in enumerate(unique_recipes)]
 
 with open("generated_unique_recipes.json", "w") as f:
     json.dump(output_results, f, indent=4)
