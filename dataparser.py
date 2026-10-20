@@ -6,7 +6,7 @@ from collections import Counter
 import pandas as pd
 
 CSV_PATH = os.path.join("data", "full_dataset.csv")
-KEYWORDS = ["cookie", "cake", "muffin", "brownie", "biscuit"]
+KEYWORDS = ["cookie"]
 MAX_NAME_WORDS = 3
 MIN_NAME_COUNT = 20
 
@@ -18,11 +18,11 @@ STANDARD_UNITS = {
 
 ROLE_RULES = [
     ("structural", "dry", r"\b(?:flour|starch|cornstarch|cornmeal|oatmeal|meal|oats)\b"),
-    ("sweetener", "sweet", r"\b(?:sugar|honey|syrup|molasses|sweetener|agave)\b"),
+    ("sweetener", "sweet", r"\b(?:sugar|honey|syrup|sweetener|agave)\b"),
     ("fat", "dairy_or_oil", r"\b(?:butter|oil|margarine|shortening|lard|ghee)\b"),
-    ("binder", "protein", r"\b(?:eggs?|yogurt|milk|cream|water)\b"),
+    ("binder", "protein", r"\b(?:egg|eggs|yogurt|milk|cream|water)\b"),
     ("rising_agent", "leavening", r"\b(?:baking powder|baking soda|yeast)\b"),
-    ("seasoning", "spice_or_flavor", r"\b(?:salt|vanilla|cinnamon|nutmeg|extract)\b"),
+    ("seasoning", "spice_or_flavor", r"\b(?:salt|vanilla|cinnamon|nutmeg|molasses|extract)\b"),
 ]
 ROLE_RULES = [(r, c, re.compile(p)) for r, c, p in ROLE_RULES]
 
@@ -106,9 +106,6 @@ for title, items in parsed:
 
     t = title.lower()
     category = "cookie"
-    if "cake" in t: category = "cake"
-    elif "muffin" in t: category = "muffin"
-    elif "brownie" in t: category = "brownie"
 
     target_recipes.append({
         "id": f"recipe_{len(target_recipes):03d}",
@@ -118,7 +115,7 @@ for title, items in parsed:
     })
 
 knowledgebase = {
-    "recipe_categories": ["cookie", "cake", "muffin", "brownie"],
+    "recipe_categories": ["cookie"],
     "recipes": target_recipes,
 }
 

@@ -1,381 +1,391 @@
 [
     {
-        "generated_id": "gen_recipe_1",
-        "fitness_score": 88.55,
-        "ingredients": [
-            {
-                "name": "flour tortillas",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "powered sugar",
-                "amount": 2.0,
-                "unit": "cups",
-                "role": "sweetener",
-                "class": "sweet"
-            },
-            {
-                "name": "chilled butter",
-                "amount": 3.0,
-                "unit": "tbsp",
-                "role": "fat",
-                "class": "dairy_or_oil"
-            },
-            {
-                "name": "unbeaten eggs",
-                "amount": 0.3333333333333333,
-                "unit": "units",
-                "role": "binder",
-                "class": "protein"
-            },
-            {
-                "name": "rapidrise yeast",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "rising_agent",
-                "class": "leavening"
-            },
-            {
-                "name": "clear vanilla",
-                "amount": 8.0,
-                "unit": "grams",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "garlic salt",
-                "amount": 1.0,
-                "unit": "tsp",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "iceberg lettuce",
-                "amount": 2.0,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "vanilla pod",
-                "amount": 0.5,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            },
-            {
-                "name": "french vanilla pudding",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
-            }
-        ]
-    },
-    {
-        "generated_id": "gen_recipe_2",
-        "fitness_score": 88.21,
-        "ingredients": [
-            {
-                "name": "flour bleached",
-                "amount": 0.25,
-                "unit": "cups",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "weight sugar",
-                "amount": 4.0,
-                "unit": "cups",
-                "role": "sweetener",
-                "class": "sweet"
-            },
-            {
-                "name": "melted coconut oil",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "fat",
-                "class": "dairy_or_oil"
-            },
-            {
-                "name": "cadbury creme eggs",
-                "amount": 6.0,
-                "unit": "cups",
-                "role": "binder",
-                "class": "protein"
-            },
-            {
-                "name": "rapidrise yeast",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "rising_agent",
-                "class": "leavening"
-            },
-            {
-                "name": "pineapple supreme cake mix",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "ginger root",
-                "amount": 1.0,
-                "unit": "tbsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "floor",
-                "amount": 2.0,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "curry",
-                "amount": 1.0,
-                "unit": "tsp",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "jigger whiskey",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            }
-        ]
-    },
-    {
         "generated_id": "gen_recipe_3",
-        "fitness_score": 88.11,
+        "fitness_score": 60.16,
         "ingredients": [
             {
-                "name": "bleached cake flour",
-                "amount": 1.0,
-                "unit": "cups",
+                "name": "flour",
                 "role": "structural",
-                "class": "dry"
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 145.6,
+                "unit": "grams"
             },
             {
-                "name": "muscavado sugar",
-                "amount": 0.625,
-                "unit": "cups",
+                "name": "splenda sugar substitute",
                 "role": "sweetener",
-                "class": "sweet"
+                "class": "sweet",
+                "bakers_percentage": 95.16,
+                "amount": 138.5,
+                "unit": "grams"
             },
             {
-                "name": "warm clarified butter",
-                "amount": 0.25,
-                "unit": "cups",
+                "name": "oil",
                 "role": "fat",
-                "class": "dairy_or_oil"
+                "class": "dairy_or_oil",
+                "bakers_percentage": 75.34,
+                "amount": 109.7,
+                "unit": "grams"
             },
             {
-                "name": "range eggs",
-                "amount": 2.0,
-                "unit": "units",
+                "name": "hot water",
                 "role": "binder",
-                "class": "protein"
+                "class": "protein",
+                "bakers_percentage": 63.55,
+                "amount": 92.5,
+                "unit": "grams"
             },
             {
-                "name": "baking powder for cakes",
-                "amount": 0.5625,
-                "unit": "tbsp",
+                "name": "hazelnut",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 2.67,
+                "amount": 3.9,
+                "unit": "grams"
+            },
+            {
+                "name": "chocolate chip",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 2.23,
+                "amount": 3.2,
+                "unit": "grams"
+            },
+            {
+                "name": "thyme",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 2.05,
+                "amount": 3.0,
+                "unit": "grams"
+            },
+            {
+                "name": "double-acting baking powder",
                 "role": "rising_agent",
-                "class": "leavening"
+                "class": "leavening",
+                "bakers_percentage": 1.53,
+                "amount": 2.2,
+                "unit": "grams"
             },
             {
-                "name": "tomatoes",
-                "amount": 0.3333333333333333,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "marsala",
-                "amount": 0.5,
-                "unit": "cups",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "powdered get",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "orange curd",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "white lily biscuit mix",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
+                "name": "blackstrap molasses",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 0.93,
+                "amount": 1.4,
+                "unit": "grams"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_4",
-        "fitness_score": 87.6,
+        "fitness_score": 60.14,
         "ingredients": [
             {
-                "name": "light buckwheat flour",
-                "amount": 1.0,
-                "unit": "cups",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "light brown sugar packed",
-                "amount": 0.5,
-                "unit": "cups",
+                "name": "coarse sugar",
                 "role": "sweetener",
-                "class": "sweet"
+                "class": "sweet",
+                "bakers_percentage": 104.11,
+                "amount": 151.7,
+                "unit": "grams"
             },
             {
-                "name": "sunflower oil",
-                "amount": 78.0,
-                "unit": "cups",
+                "name": "regular oats",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 145.7,
+                "unit": "grams"
+            },
+            {
+                "name": "virgin coconut oil",
                 "role": "fat",
-                "class": "dairy_or_oil"
+                "class": "dairy_or_oil",
+                "bakers_percentage": 62.37,
+                "amount": 90.9,
+                "unit": "grams"
             },
             {
-                "name": "pasteurized egg whites",
-                "amount": 0.25,
-                "unit": "cups",
+                "name": "milk chocolate",
                 "role": "binder",
-                "class": "protein"
+                "class": "protein",
+                "bakers_percentage": 61.64,
+                "amount": 89.8,
+                "unit": "grams"
             },
             {
-                "name": "baking powder for cakes",
-                "amount": 0.5625,
-                "unit": "tbsp",
+                "name": "flake coconut",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 4.72,
+                "amount": 6.9,
+                "unit": "grams"
+            },
+            {
+                "name": "kinako",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 4.51,
+                "amount": 6.6,
+                "unit": "grams"
+            },
+            {
+                "name": "baking soda",
                 "role": "rising_agent",
-                "class": "leavening"
+                "class": "leavening",
+                "bakers_percentage": 2.93,
+                "amount": 4.3,
+                "unit": "grams"
             },
             {
-                "name": "margerine",
-                "amount": 2.0,
-                "unit": "units",
+                "name": "choice",
                 "role": "add_in_or_flavor",
-                "class": "misc"
+                "class": "misc",
+                "bakers_percentage": 2.13,
+                "amount": 3.1,
+                "unit": "grams"
             },
             {
-                "name": "beets",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "thin",
-                "amount": 3.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "coconuts",
-                "amount": 2.0,
-                "unit": "units",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "imitation vanilla",
-                "amount": 1.0,
-                "unit": "tsp",
+                "name": "freshly grated nutmeg",
                 "role": "seasoning",
-                "class": "spice_or_flavor"
+                "class": "spice_or_flavor",
+                "bakers_percentage": 0.69,
+                "amount": 1.0,
+                "unit": "grams"
             }
         ]
     },
     {
         "generated_id": "gen_recipe_5",
-        "fitness_score": 87.34,
+        "fitness_score": 60.06,
         "ingredients": [
             {
-                "name": "flour tortillas",
-                "amount": 1.0,
-                "unit": "units",
-                "role": "structural",
-                "class": "dry"
-            },
-            {
-                "name": "colored crystal sugar",
-                "amount": 1.0,
-                "unit": "cups",
+                "name": "cane sugar",
                 "role": "sweetener",
-                "class": "sweet"
+                "class": "sweet",
+                "bakers_percentage": 100.64,
+                "amount": 139.5,
+                "unit": "grams"
             },
             {
-                "name": "firm margarine",
-                "amount": 0.25,
-                "unit": "cups",
+                "name": "flour",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 138.6,
+                "unit": "grams"
+            },
+            {
+                "name": "butter",
                 "role": "fat",
-                "class": "dairy_or_oil"
+                "class": "dairy_or_oil",
+                "bakers_percentage": 87.0,
+                "amount": 120.6,
+                "unit": "grams"
             },
             {
-                "name": "greek yogurt",
-                "amount": 14.0,
-                "unit": "cups",
+                "name": "condensed milk",
                 "role": "binder",
-                "class": "protein"
+                "class": "protein",
+                "bakers_percentage": 60.61,
+                "amount": 84.0,
+                "unit": "grams"
             },
             {
-                "name": "rapidrise yeast",
-                "amount": 2.0,
-                "unit": "units",
+                "name": "angel",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 3.7,
+                "amount": 5.1,
+                "unit": "grams"
+            },
+            {
+                "name": "drops",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 2.51,
+                "amount": 3.5,
+                "unit": "grams"
+            },
+            {
+                "name": "yeast",
                 "role": "rising_agent",
-                "class": "leavening"
+                "class": "leavening",
+                "bakers_percentage": 2.3,
+                "amount": 3.2,
+                "unit": "grams"
             },
             {
-                "name": "mousse filling",
-                "amount": 1.0,
-                "unit": "units",
+                "name": "caramel bits",
                 "role": "add_in_or_flavor",
-                "class": "misc"
+                "class": "misc",
+                "bakers_percentage": 2.07,
+                "amount": 2.9,
+                "unit": "grams"
             },
             {
-                "name": "sweet chestnuts",
-                "amount": 100.0,
-                "unit": "grams",
-                "role": "add_in_or_flavor",
-                "class": "misc"
-            },
-            {
-                "name": "cinnamon buttercream frosting",
-                "amount": 1.0,
-                "unit": "cups",
+                "name": "rabbit molasses",
                 "role": "seasoning",
-                "class": "spice_or_flavor"
+                "class": "spice_or_flavor",
+                "bakers_percentage": 1.86,
+                "amount": 2.6,
+                "unit": "grams"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_9",
+        "fitness_score": 59.61,
+        "ingredients": [
+            {
+                "name": "quick-cooking oatmeal",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 143.3,
+                "unit": "grams"
             },
             {
-                "name": "vanilla cupcakes",
-                "amount": 6.0,
-                "unit": "units",
-                "role": "seasoning",
-                "class": "spice_or_flavor"
+                "name": "light-brown sugar",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 87.92,
+                "amount": 126.0,
+                "unit": "grams"
             },
             {
-                "name": "ground flaxseed",
-                "amount": 0.25,
-                "unit": "cups",
+                "name": "non-hydrogenated margarine",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 75.59,
+                "amount": 108.3,
+                "unit": "grams"
+            },
+            {
+                "name": "egg substitute",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 70.82,
+                "amount": 101.5,
+                "unit": "grams"
+            },
+            {
+                "name": "chili powder",
                 "role": "add_in_or_flavor",
-                "class": "misc"
+                "class": "misc",
+                "bakers_percentage": 4.49,
+                "amount": 6.4,
+                "unit": "grams"
+            },
+            {
+                "name": "rhubarb",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 4.29,
+                "amount": 6.1,
+                "unit": "grams"
+            },
+            {
+                "name": "matcha",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 3.38,
+                "amount": 4.8,
+                "unit": "grams"
+            },
+            {
+                "name": "baking powder",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 1.83,
+                "amount": 2.6,
+                "unit": "grams"
+            },
+            {
+                "name": "vanilla pudding",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 0.61,
+                "amount": 0.9,
+                "unit": "grams"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_11",
+        "fitness_score": 59.53,
+        "ingredients": [
+            {
+                "name": "vanilla sugar",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 109.25,
+                "amount": 144.9,
+                "unit": "grams"
+            },
+            {
+                "name": "cooking oats",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 132.6,
+                "unit": "grams"
+            },
+            {
+                "name": "sweet milk",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 79.04,
+                "amount": 104.8,
+                "unit": "grams"
+            },
+            {
+                "name": "shortening",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 74.96,
+                "amount": 99.4,
+                "unit": "grams"
+            },
+            {
+                "name": "chocolate sandwich cookies",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 4.25,
+                "amount": 5.6,
+                "unit": "grams"
+            },
+            {
+                "name": "apple cider vinegar",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 4.26,
+                "amount": 5.6,
+                "unit": "grams"
+            },
+            {
+                "name": "semi-sweet chocolate bits",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 3.39,
+                "amount": 4.5,
+                "unit": "grams"
+            },
+            {
+                "name": "baking soda",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 1.11,
+                "amount": 1.5,
+                "unit": "grams"
+            },
+            {
+                "name": "unsulfured molasses",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 0.73,
+                "amount": 1.0,
+                "unit": "grams"
             }
         ]
     }

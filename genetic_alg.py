@@ -7,8 +7,6 @@ with open("knowledgebase.json", "r") as f:
     kb = json.load(f)
 
 recipes = kb["recipes"]
-if len(recipes) > 5000:
-    recipes = random.sample(recipes, 5000)
 
 corpus = [" ".join([ing["name"] for ing in r["ingredients"]]) for r in recipes]
 vectorizer = TfidfVectorizer()
@@ -33,11 +31,11 @@ required_roles = ["structural", "sweetener", "fat", "binder", "rising_agent", "s
 def get_initial_bp(role):
     if role == "structural": return 100.0
     if role == "sweetener": return random.uniform(50.0, 120.0)
-    if role == "fat": return random.uniform(40.0, 80.0)
-    if role == "binder": return random.uniform(20.0, 80.0)
+    if role == "fat": return random.uniform(50.0, 90.0)
+    if role == "binder": return random.uniform(60.0, 80.0)
     if role == "rising_agent": return random.uniform(1.0, 3.0)
     if role == "seasoning": return random.uniform(0.5, 2.0)
-    return random.uniform(5.0, 30.0)
+    return random.uniform(2.0, 5.0)
 
 def create_random_recipe():
     recipe_ingredients = []
@@ -78,7 +76,14 @@ def evaluate_fitness(recipe_ingredients):
     if bp_totals["rising_agent"] < 1 or bp_totals["rising_agent"] > 4: penalty += 50
     if bp_totals["seasoning"] > 3: penalty += 50
 
-    rarity_score = sum(get_idf(ing["name"]) for ing in recipe_ingredients)
+    rarity_score = 0.0
+    for ing in recipe_ingredients:
+        idf = get_idf(ing["name"])
+        if ing["role"] in ["structural", "sweetener", "fat", "binder", "rising_agent"]:
+            rarity_score += (5.0 / idf)
+        else:
+            rarity_score += idf
+
     diversity_bonus = len(recipe_ingredients) * 2.0
     
     return max(0.01, rarity_score + diversity_bonus - (penalty * 0.5))
@@ -120,9 +125,9 @@ def mutate(recipe_ingredients):
                 
     return mutated
 
-population_size = 1000
-generations = 15
-mutation_rate = 0.4
+population_size = 10000
+generations = 10
+mutation_rate = 0.25
 
 population = [create_random_recipe() for _ in range(population_size)]
 

@@ -1,0 +1,376 @@
+[
+    {
+        "generated_id": "gen_recipe_5",
+        "fitness_score": 87.75,
+        "ingredients": [
+            {
+                "name": "unbleached white flour",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 142.9,
+                "unit": "grams"
+            },
+            {
+                "name": "blackstrap molasses",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 75.01,
+                "amount": 107.2,
+                "unit": "grams"
+            },
+            {
+                "name": "marshmallow cream",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 74.13,
+                "amount": 105.9,
+                "unit": "grams"
+            },
+            {
+                "name": "canola oil",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 45.35,
+                "amount": 64.8,
+                "unit": "grams"
+            },
+            {
+                "name": "cacao",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 24.17,
+                "amount": 34.5,
+                "unit": "grams"
+            },
+            {
+                "name": "generous",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 20.44,
+                "amount": 29.2,
+                "unit": "grams"
+            },
+            {
+                "name": "lime",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 8.06,
+                "amount": 11.5,
+                "unit": "grams"
+            },
+            {
+                "name": "vanilla bean paste",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 1.65,
+                "amount": 2.4,
+                "unit": "grams"
+            },
+            {
+                "name": "yeast",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 1.12,
+                "amount": 1.6,
+                "unit": "grams"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_9",
+        "fitness_score": 86.99,
+        "ingredients": [
+            {
+                "name": "regular oatmeal",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 134.5,
+                "unit": "grams"
+            },
+            {
+                "name": "cane sugar",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 88.4,
+                "amount": 118.9,
+                "unit": "grams"
+            },
+            {
+                "name": "milk chocolate kisses",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 66.4,
+                "amount": 89.3,
+                "unit": "grams"
+            },
+            {
+                "name": "extra-virgin olive oil",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 46.49,
+                "amount": 62.6,
+                "unit": "grams"
+            },
+            {
+                "name": "banana chips",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 24.69,
+                "amount": 33.2,
+                "unit": "grams"
+            },
+            {
+                "name": "chocolate wafer cookies",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 22.75,
+                "amount": 30.6,
+                "unit": "grams"
+            },
+            {
+                "name": "fresh rosemary",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 19.93,
+                "amount": 26.8,
+                "unit": "grams"
+            },
+            {
+                "name": "yeast",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 2.02,
+                "amount": 2.7,
+                "unit": "grams"
+            },
+            {
+                "name": "vanilla essence",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 0.94,
+                "amount": 1.3,
+                "unit": "grams"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_8",
+        "fitness_score": 69.25,
+        "ingredients": [
+            {
+                "name": "granulated sugar",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 113.2,
+                "amount": 142.7,
+                "unit": "grams"
+            },
+            {
+                "name": "quick-cooking oats",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 126.0,
+                "unit": "grams"
+            },
+            {
+                "name": "peanut butter",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 74.67,
+                "amount": 94.1,
+                "unit": "grams"
+            },
+            {
+                "name": "milk chocolate chips",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 65.38,
+                "amount": 82.4,
+                "unit": "grams"
+            },
+            {
+                "name": "unflavored gelatin",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 20.75,
+                "amount": 26.1,
+                "unit": "grams"
+            },
+            {
+                "name": "thyme",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 13.29,
+                "amount": 16.7,
+                "unit": "grams"
+            },
+            {
+                "name": "coffee granules",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 5.68,
+                "amount": 7.2,
+                "unit": "grams"
+            },
+            {
+                "name": "double-acting baking powder",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 2.18,
+                "amount": 2.8,
+                "unit": "grams"
+            },
+            {
+                "name": "rabbit molasses",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 1.58,
+                "amount": 2.0,
+                "unit": "grams"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_7",
+        "fitness_score": 69.3,
+        "ingredients": [
+            {
+                "name": "cooking oatmeal",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 164.3,
+                "unit": "grams"
+            },
+            {
+                "name": "vanilla sugar",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 66.99,
+                "amount": 110.1,
+                "unit": "grams"
+            },
+            {
+                "name": "candy-coated milk",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 66.39,
+                "amount": 109.1,
+                "unit": "grams"
+            },
+            {
+                "name": "cookie butter",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 61.94,
+                "amount": 101.8,
+                "unit": "grams"
+            },
+            {
+                "name": "peaches",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 2.86,
+                "amount": 4.7,
+                "unit": "grams"
+            },
+            {
+                "name": "unsulfured molasses",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 1.79,
+                "amount": 2.9,
+                "unit": "grams"
+            },
+            {
+                "name": "semi-sweet chocolate pieces",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 1.78,
+                "amount": 2.9,
+                "unit": "grams"
+            },
+            {
+                "name": "double-acting baking powder",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 1.52,
+                "amount": 2.5,
+                "unit": "grams"
+            },
+            {
+                "name": "chili powder",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 1.03,
+                "amount": 1.7,
+                "unit": "grams"
+            }
+        ]
+    },
+    {
+        "generated_id": "gen_recipe_15",
+        "fitness_score": 65.49,
+        "ingredients": [
+            {
+                "name": "flour",
+                "role": "structural",
+                "class": "dry",
+                "bakers_percentage": 100.0,
+                "amount": 148.2,
+                "unit": "grams"
+            },
+            {
+                "name": "sugar",
+                "role": "sweetener",
+                "class": "sweet",
+                "bakers_percentage": 92.57,
+                "amount": 137.2,
+                "unit": "grams"
+            },
+            {
+                "name": "butter",
+                "role": "fat",
+                "class": "dairy_or_oil",
+                "bakers_percentage": 70.8,
+                "amount": 104.9,
+                "unit": "grams"
+            },
+            {
+                "name": "milk chocolate chips",
+                "role": "binder",
+                "class": "protein",
+                "bakers_percentage": 68.39,
+                "amount": 101.4,
+                "unit": "grams"
+            },
+            {
+                "name": "baking soda",
+                "role": "rising_agent",
+                "class": "leavening",
+                "bakers_percentage": 2.13,
+                "amount": 3.2,
+                "unit": "grams"
+            },
+            {
+                "name": "chili powder",
+                "role": "add_in_or_flavor",
+                "class": "misc",
+                "bakers_percentage": 2.09,
+                "amount": 3.1,
+                "unit": "grams"
+            },
+            {
+                "name": "blackstrap molasses",
+                "role": "seasoning",
+                "class": "spice_or_flavor",
+                "bakers_percentage": 1.39,
+                "amount": 2.1,
+                "unit": "grams"
+            }
+        ]
+    }
+]
